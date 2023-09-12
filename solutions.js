@@ -34,3 +34,11 @@ function not(input) {
 function addOne(input) {
     return Number(input) + 1;
 }
+function isEven(input) {
+if (input %2==0) {
+    return true;
+} else {
+        return false;
+    }
+
+}
