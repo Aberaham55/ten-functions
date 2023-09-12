@@ -42,3 +42,17 @@ if (input %2==0) {
     }
 
 }
+function isIdentical(input1,  input2) {
+    if(input1 === input2) {
+        return true;
+    } else {
+        return false;
+    }
+}
+function isEqual(inp1, inp2) {
+    if (inp1 == inp2) {
+        return true;
+    } else {
+        return false;
+    }
+}
