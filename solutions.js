@@ -59,3 +59,6 @@ function isEqual(inp1, inp2) {
 function or(in1, in2) {
     return in1 || in2;
 }
+function and(i1, i2) {
+    return i1 && i2;
+}
